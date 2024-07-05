@@ -5,15 +5,15 @@ function navbar() {
   return (
     <nav>
     <ul>
-      <li>
-        <Link to="/add">Add</Link>
-      </li>
-      <li>
-        <Link to="/">Students</Link>
-      </li>
-      <li>
-        <Link to="/univesties">Universities</Link> {/* Corrected typo in "universities" */}
-      </li>
+      
+        <Link style={{margin: 20}} to="/add">Add</Link>
+     
+      
+        <Link style={{margin: 20}}to="/">Students</Link>
+    
+    
+        <Link  style={{margin: 20}} to="/univesties">Universities</Link> 
+    
     </ul>
   </nav>
 
